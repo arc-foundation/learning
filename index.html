@@ -1,62 +1,110 @@
 <!doctype html>
 <html>
-<head></head>
+
+<head>
+    <title>Dikshya</title>
+</head>
 
 <body>
-<h1>Git Basics: A Quick Guide</h1>
-<hr>
-<h2>Introduction</h2>
-<hr>
-<p>Git is a distributed version control system that helps you track changes in your code, collaborate with others, and manage your project's history. This guide covers the basic Git commands and concepts.<p>
-<h2>Getting Started</h2>
-<hr>
-<ol type="1">
-<li> <h3>Installing Git</h3> </li>
-<p>Before using Git, make sure it's installed on your machine. You can download it from <a href="https://git-scm.com/downloads">here</a>.</p>
-<li> <h3> Configuring Git</h3> </li>
-<p>After installation, configure your name and email:</p>
-<code> <p>git config --global user.name "Your Name"<br>git config --global user.email "your.email@example.com"</p> </code>
-<h2>Creating a New Repository</h2>
-<hr>
-<li> <h3>Initializing a Repository</h3> </li>
-<code> <p>git init<p> </code>
-<li> <h3>Adding Files</h3></li>
-<code> <p>git add &ltfilename&gt <br>git add .</p> </code>
-<li> <h3> Commiting Changes </h3> </li>
-<code> <p>git commit -m"&ltcommit message&gt".</p></code>
-<li> <h3> Push the Change to Server </h3></li>
-<code> <p>git push origin &ltbranch name&gt</p></code>
-</ol>
-<h2> Working with Branches </h2>
-<hr>
-<ol>
-<li> <h3>Creating a Branch </h3></li>
-<p> Create a new branch for a feature or bug fix:</p>
-<code> <p> git branch &ltfeature-brach&gt </p> </code>
-<li> <h3> Switching Branches </h3> </li>
-<p> Switch to the nre branch </p>
-<code> <p>git checkout feature-branch </p> </code>
-<li> <h3>Merging Branches </h3></li>
-<p> Merge chnages back into the main branch: </p>
-<code><p> git checkout main <br> git merge feature-branch</p></code> 
-</ol>
-<h2>Collaboration</h2>
-<hr>
-<ol>
-<li> <h3> Cloning a Repository </h3> </li>
-<p> Clone a remote repository to your local machine: </p>
-<code> <p> git clone https://github.com/username/repo.git </p> </code>
-<li><h3>Pulling Changes</h3></li>
-<p>Update your local repository with remote changes:</p>
-<code><p>git pull origin main</p></code>
-<li><h3>Pushing Changes</h3></li>
-<p>Push your local changes to the remote repository:</p>
-<code><p>git push origin main</p></code>
-</ol>
-<h3>Additional Commands</h3>
-<ul>
-<li><code><p>git status</code> : Check the status of your repository.</p></li>
-<li><code><p>git log</code> : View commit history.</p></li>
-<li><code><p>git diff</code> : Show changes between commits.</p></li>
+    <h1>Git Basics: A Quick Guide</h1>
+    <hr>
+    <h2>Introduction</h2>
+    <hr>
+    <p>Git is a distributed version control system that helps you track changes in your code, collaborate with others,
+        and manage your project's history. This guide covers the basic Git commands and concepts.
+    </p>
+    <h2>Getting Started</h2>
+    <hr>
+    <ol type="1">
+        <li>
+            <h3>Installing Git</h3>
+        </li>
+        <p>Before using Git, make sure it's installed on your machine. You can download it from <a
+                href="https://git-scm.com/downloads">here</a>.</p>
+        <li>
+            <h3> Configuring Git</h3>
+        </li>
+        <p>After installation, configure your name and email:</p>
+        <code>
+			<p>
+				git config --global user.name "Your Name"
+				<br>
+				git config --global user.email "your.email@example.com"
+			</p>
+		</code>
+        <h2>Creating a New Repository</h2>
+        <hr>
+        <li>
+            <h3>Initializing a Repository</h3>
+        </li>
+        <code> <p>git init<p> </code>
+        <li>
+            <h3>Adding Files</h3>
+        </li>
+        <code>
+	  	git add &ltfilename&gt
+	 	<br>
+		git add .
+		</p> 
+	</code>
+        <li>
+            <h3> Commiting Changes </h3>
+        </li>
+        <code>
+		<p>git commit -m"&ltcommit message&gt".</p>
+	</code>
+        <li>
+            <h3> Push the Change to Server </h3>
+        </li>
+        <code> <p>git push origin &ltbranch name&gt</p></code>
+    </ol>
+    <h2> Working with Branches </h2>
+    <hr>
+    <ol>
+        <li>
+            <h3>Creating a Branch </h3>
+        </li>
+        <p> Create a new branch for a feature or bug fix:</p>
+        <code> <p> git branch &ltfeature-brach&gt </p> </code>
+        <li>
+            <h3> Switching Branches </h3>
+        </li>
+        <p> Switch to the nre branch </p>
+        <code> <p>git checkout feature-branch </p> </code>
+        <li>
+            <h3>Merging Branches </h3>
+        </li>
+        <p> Merge chnages back into the main branch: </p>
+        <code><p> git checkout main <br> git merge feature-branch</p></code>
+    </ol>
+    <h2>Collaboration</h2>
+    <hr>
+    <ol>
+        <li>
+            <h3> Cloning a Repository </h3>
+        </li>
+        <p> Clone a remote repository to your local machine: </p>
+        <code> <p> git clone https://github.com/username/repo.git </p> </code>
+        <li>
+            <h3>Pulling Changes</h3>
+        </li>
+        <p>Update your local repository with remote changes:</p>
+        <code><p>git pull origin main</p></code>
+        <li>
+            <h3>Pushing Changes</h3>
+        </li>
+        <p>Push your local changes to the remote repository:</p>
+        <code><p>git push origin main</p></code>
+    </ol>
+    <h3>Additional Commands</h3>
+    <ul>
+        <li><code><p>git status</code> : Check the status of your repository.</p>
+        </li>
+        <li><code><p>git log</code> : View commit history.</p>
+        </li>
+        <li><code><p>git diff</code> : Show changes between commits.</p>
+        </li>
+     </ul>   
 </body>
+
 </html>
