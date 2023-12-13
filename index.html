@@ -1,8 +1,100 @@
 <!doctype html>
 <html>
-<head></head>
+<head>
+</head>
 
 <body>
-<h1>heading</h1>
+<h1>Git Basics: A Quick Guide</h1>
+<hr>
+<h2>Introduction</h2>
+<hr>
+<p>Git is a distributed version control system that helps you track changes in your code, collaborate with others, and manage your project's history. This guide covers the basic Git commands and concepts.</p>
+
+<h2>Geting Started </h2>
+<hr>
+<ol>
+<h3><li>Installing Git</li></h3>
+<p>Before using Git, make sure it's installed on your machine. You can download it from
+<a href="https://git-scm.com/downloads">here</a>
+</p>
+
+<h3><li>Configuring Git</li></h3>
+<p>After installation, configure your name and email:</p>
+<code>git config --global user.name "Your Name"<br>
+git config --global user.email "your.email@example.com"</code>
+
+<h2>Creating a New Repository</h2>
+<hr>
+<h3><li>Initializing a Repository</li></h3>
+<code>git init</code>
+
+<h3><li>Adding Files</li></h3>
+<code>    git add &lt;filename&gt;<br>
+    git add .</code>
+
+<h3><li>Committing Changes</li></h3>
+<code>    git commit -m &ltcommit message&gt</code>
+
+<h3><li>Push the Change to server</li></h3>
+<code>git push origin &ltbranch name&gt</code>
+
+<h2>Working with Branches</h2>
+<hr>
+<ol>
+<h3><li>Creating a Branch</li></h3>
+<p>Create a new branch for a feature or bug fix:</p>
+<code>git branch &ltfeature-branch&gt</code>
+
+<h3><li>Switching Branches</li></h3>
+<p>Switch to the new branch:</p>
+<code>git checkout feature-branch</code>
+
+<h3><li>Merging Branches</li></h3>
+<code>git checkout main<br>
+git merge feature-branch</code>
+
+<h2>Collaboration</h2>
+<hr>
+<ol>
+<h3><li>Cloning a Repository</li></h3>
+<p>Clone a remote repository to your local machine:</p>
+<code>git clone https://github.com/username/repo.git</code>
+
+<h3><li>Pulling Changes</li></h3>
+<p>Update your local repository with remote changes:</p>
+<code>git pull origin main</code>
+
+<h3><li>Pushing Changes</li></h3>
+<p>Push your local changes to the remote repository:</p>
+<code>git push origin main</code>
+
+<h3>Additional Commands</h3>
+<ul>
+<li><code>git status:</code>Check the status of your repository.</li>
+</ul>
+<ul>
+<li><code>git log:</code>View commit history.</li>
+</ul>
+<ul>
+<li><code>git diff:</code>Show changes between commits.</li>
+</ul>
+
+<hr>
+
+<h4>Releases</h4>
+<p>No releases published</p>
+<a href="https://github.com/arc-foundation/learning/releases/new">Create a new releases</a>
+<hr>
+<h4>Packages</h4>
+<p>No packages published</p>
+<a href="https://github.com/arc-foundation/learning/packages">Publish your first package</a>
+<hr>
+<h4>Languages</h4>
+<hr>
+
+<h4>Suggested workflows</h4>
+<p>Based on your teach stack</p>
+
+
 </body>
 </html>
