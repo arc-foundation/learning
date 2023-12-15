@@ -1,15 +1,21 @@
 body {
-    background-color: black;
+    background-color: wheat;
+    color: black;
+    font-size: large
 }
 
-body {
-    color: white;
+.about {
+    text-align: center;
+
 }
 
-body {
-    font-size: x-large;
+
+.Awards {
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: inherit;
 }
 
-style {
-    text-indent: 100px;
+.death {
+    text-align: center;
 }
