@@ -1,20 +1,17 @@
 body {
     background-color: black;
-}
-
-body {
     color: aliceblue;
-}
-
-body {
-    font-size: x-large;
-}
-
-.wrap {
-    float: right;
-    margin: 5px;
 }
 
 p {
     white-space: wrap;
+}
+
+.mt-5 {
+    margin-top: 100px;
+}
+
+.biography-text {
+    text-align: center;
+    font-size: 30px;
 }
