@@ -1,9 +1,22 @@
 body {
-    background: url(../img/background\ 2.jpg);
+    /* background: url('../img/background\ 2.jpg'); */
+    background-image: url('../img/background\ 2.jpg');
+    background-repeat: no-repeat;
+
 }
 
 div.center {
     width: 100px;
     margin: 100px auto 0;
 
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: cadetblue;
 }
