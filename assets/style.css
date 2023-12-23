@@ -1,5 +1,7 @@
 body {
     background-color: rgb(117, 68, 233);
+    background-image: url("img/background.jpg");
+    color: brown;
 }
 
 
