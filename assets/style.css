@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(117, 68, 233);
+}
+
+
+h1,
+p {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+section {
+    text-align: center;
+    text-decoration-color: rgb(151, 107, 24);
+}
+
+.img {
+    width: 500 px;
+    height: 380px;
+}
+
+.arpit {
+    width: 400px;
+    height: 425px;
+}
+
+.dev {
+    width: 250px;
+    height: 245px;
+}
+
+.yuhnna {
+    width: 600px;
+    height: 565px;
+}
