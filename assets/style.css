@@ -1,7 +1,6 @@
 body {
     background-color: rgb(117, 68, 233);
-    background-image: url("img/background.jpg");
-    color: brown;
+    color: black;
 }
 
 
@@ -35,4 +34,14 @@ section {
 .yuhnna {
     width: 600px;
     height: 565px;
+}
+
+.logo {
+    width: 435px;
+    height: 270px;
+}
+
+.img {
+    width: 350px;
+    height: 420px;
 }
