@@ -9,6 +9,23 @@ h1 {
     margin-bottom: 15px;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    margin-top: -90px;
+    margin-bottom: 50px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
 h2 {
     font-size: 30px;
 }
@@ -24,8 +41,12 @@ p {
     background-color: rgba(214, 213, 216, 0.897);
     margin-left: auto;
     margin-right: auto;
-    padding: 100px;
-    max-width: 500px;
+    padding: 120px;
+    max-width: 540px;
+}
+
+.img {
+    float: right;
 }
 
 img {
