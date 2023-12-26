@@ -1,0 +1,14 @@
+body {}
+
+nav {
+    ul {
+        display: flex;
+        width: 98px;
+        height: 42px;
+        justify-content: space-evenly;
+    }
+}
+
+ul {
+    list-style: none;
+}
