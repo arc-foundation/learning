@@ -30,13 +30,28 @@ nav.top-navigation {
     text-align: center;
 }
 
-.button {
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #000000d7;
-    border-radius: 8px;
+div.button-haha {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 
+    .button {
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #000000d7;
+        border-radius: 8px;
+        text-decoration: none;
+        color: aliceblue;
+    }
+}
+
+div.img {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
 }
