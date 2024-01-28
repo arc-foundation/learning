@@ -58,6 +58,26 @@ header {
 .first-div {
     display: flex;
     justify-content: space-evenly;
-    margin-left: auto;
+}
 
+.top-navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 340px;
+    width: 45%;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 70px;
+    margin-right:
+
+}
+
+hr {
+    max-width: ;
+    width: 100%;
 }
