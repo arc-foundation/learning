@@ -7,6 +7,10 @@
     <title>Dental Website Application</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -58,16 +62,41 @@
             <div class="card">
                 <div class="card-header">
                     <h3>Approval New Patient</h3>
-
-                    <button class="btn btn-primary">Add new Appointment</button>
+                    <input class="m-right" type="date" value="date">
+                    <div class="dropdown">
+                        <button class="btn btn-primary">Add New Appointment<i
+                                class="fa-solid fa-greater-than fa-rotate-90 space"></i></button>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="#">+ New Booking</a>
+                        <a href="#">+ Add Asignment</a>
+                        <a href="#">+ Add Patient</a>
+                    </div>
                 </div>
             </div>
         </main>
+        <div class="row">
+            <div class="column">
+                <p class="flex-1">All Apply Queue</p>
+                <h1>1432 Patient</h1>
+                <p class="flex flex-1">+4</p>
+                <p class="flex-1">In This Month</p>
+            </div>
+            <div class="column">
+                <p class="flex-1">New Patient Regular</p>
+                <h1>432 Patient</h1>
+                <p class="flex flex-1">+16</p>
+                <p class="flex-1">In This Month</p>
+            </div>
+            <div class="column">
+                <p class="flex-1">New patient members</p>
+                <h1>500 Patient</h1>
+                <p class="flex flex-1">+2</p>
+                <p class="flex-1">In This Month</p>
+            </div>
+            <div class="column"></div>
+        </div>
     </div>
-
-
-
-
 </body>
 
 </html>
