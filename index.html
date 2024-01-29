@@ -5,75 +5,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dental Website Application</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <ul class="sidebar">
-        <li><a href="#">
 
-            </a></li>
-        <li><a href="#">
-
-            </a></li>
-        <li><a href="#">
-                <i class="fa-regular fa-user"></i>
-            </a></li>
-        <li><a href="#">
-                <i class="fa-regular fa-calendar"></i>
-            </a></li>
-        <li><a href="#">
-                <i class="fa-solid fa-cube"></i>
-            </a></li>
-        <li><a href="#">
-                <i class="fa-solid fa-window-maximize"></i>
-            </a></li>
-        <li><a href="#">
-                <i class="fa-regular fa-circle-question"></i>
-            </a></li>
-        <li><a href="#">
-                <i class="fa-solid fa-gear"></i>
-            </a></li>
-    </ul>
-    </nav>
-    </header>
-
-    <body>
-        <nav>
-            <ul class="top-navbar">
-                <li>Accepted</li>
-                <li>in Queue</li>
-                <li>Urgent</li>
-                <li>Archive</li>
+    <aside class="side-bar">
+        <div class="brand-logo">
+            <i class="fa-solid fa-tooth"></i>
+        </div>
+        <nav class="side-nav">
+            <ul class="side-nav">
+                <li><i class=" fa-solid fa-table-cells-large"></i> Dashboard</li>
+                <li><i class="fa-regular fa-clipboard"></i> Clipboard</li>
+                <li><i class="fa-regular fa-user"></i> Users</li>
+                <li><i class="fa-regular fa-calendar"></i> Calendar</li>
+                <li><i class="fa-solid fa-cube"></i> Cube</li>
+                <li><i class="fa-regular fa-credit-card"></i> Payments</li>
             </ul>
-            <hr>
-            <nav>
-                <div class="first-div">
-                    <section class="first-section">
-                        <section class="first-sectiontop">
-                            <h2>#44323</h2>
-                            <h2>Regular</h2>
-                        </section>
-                        <hr>
-                        <section>
-                            <h3>Patient name</h3>
-                            <p>Arpit</p>
-                            <h3>Date of register</h3>
-                            <p>12 Dec,2023</p>
-                            <h3>telephoe number<h3>
-                                    <p>+6283735634323</p>
-                                    <h3>E-mail</h3>
-                                    <p>jeromebell93@mail</p>
-                        </section>
-                    </section>
-                </div>
-            </nav>
         </nav>
-    </body>
+        <nav class="nav-settings">
+            <ul>
+                <li><i class="fa-regular fa-circle-question"></i></li>
+                <li><i class="fa-solid fa-gear"></i></li>
+            </ul>
+        </nav>
+    </aside>
+    <div class="main-container">
+        <header class="top-header">
+            <div class="breadcrums">
+                <a href="#">Patient Queue</a>
+                /
+                <a href="#">Approval New Patient</a>
+            </div>
 
+            <div class="m-left">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-regular fa-bell"></i>
+            </div>
 
+            <div class="profile-section">
+                <img src="./assets/image/photo.png" class="profile-img" alt="profile-image">
+                <div>
+                    <p>Dev Raj Banshi</p>
+                    <p>Administrator</p>
+                </div>
+            </div>
+        </header>
 
+        <main>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Approval New Patient</h3>
+                    <input class="m-right" type="date" value="date">
+                    <div class="dropdown">
+                        <button class="btn btn-primary">Add New Appointment
+                            <span class="left-icon"></span>
+                            <span class="right-icon"></span>
+                            <div class="items">
+                                <a href="#">+ New Booking</a>
+                                <a href="#">+ Add Asignment</a>
+                                <a href="#">+ Add Patient</a>
+                            </div>
+                        </button>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <p class="flex-1">All Apply Queue</p>
+                        <h1>1432 Patient</h1>
+                        <p class="flex flex-1">+4</p>
+                        <p class="flex-1">In This Month</p>
+                    </div>
+                    <div class="column">
+                        <p class="flex-1">New Patient Regular</p>
+                        <h1>432 Patient</h1>
+                        <p class="flex flex-1">+16</p>
+                        <p class="flex-1">In This Month</p>
+                    </div>
+                    <div class="column">
+                        <p class="flex-1">New patient members</p>
+                        <h1>500 Patient</h1>
+                        <p class="flex flex-1">+2</p>
+                        <p class="flex-1">In This Month</p>
+                    </div>
+                    <div class="column">
+                        <p class="flex-1">New patient Booking</p>
+                        <h1>500 Patient</h1>
+                        <p class="flex flex-1">+6</p>
+                        <p class="flex-1">In This Month</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
 </body>
 
 </html>
