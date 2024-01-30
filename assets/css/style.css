@@ -59,6 +59,7 @@ header {
         align-items: center;
         justify-content: space-between;
         width: 170px;
+        margin-right: 20px;
 
         .profile-img {
             height: 45px;
@@ -71,19 +72,29 @@ div.breadcrums {
     display: flex;
     padding: 10px;
     margin-left: 10px;
-    margin-top: -1rem;
 }
 
 .breadcrums>a {
     text-decoration: none;
     color: #000;
+    margin-left: 5px;
+}
+
+.breadcrums>a:first-child {
+    color: #696969;
+    font-weight: 300;
+}
+
+.left {
+    margin-left: 5px;
 }
 
 .m-left {
     display: flex;
-    margin-left: 44rem;
+    margin-left: 35rem;
     justify-content: space-between;
-    width: 5%;
+    width: 7%;
+    margin-top: 5px;
 }
 
 div.brand-logo {
@@ -107,7 +118,7 @@ aside.side-bar {
 }
 
 .side-nav {
-    margin-top: -10rem;
+    margin-top: -6rem;
     margin-left: 12px;
 }
 
@@ -121,17 +132,33 @@ nav ul>li {
     padding: 10px;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
+.size {
+    font-size: x-large;
+}
+
+.line {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    background: #ddd;
+    border-radius: 35px;
+}
+
+.line {
+    transform: rotate(90deg);
+}
+
+input[type=date] {
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 5px 5px;
 }
 
 .btn {
     background-color: blue;
     color: #ddd;
-    width: 100%;
+    width: 110%;
     height: 40px;
     border-radius: 5px;
     cursor: pointer;
@@ -139,13 +166,14 @@ nav ul>li {
 
 
 .space {
-    margin-left: 10px;
-    border-bottom: 2px solid lightgray;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
 }
 
 .card-header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .m-right {
@@ -154,18 +182,34 @@ nav ul>li {
 
 .column {
     width: 20%;
-    padding: 10px;
-    height: 100px;
-    border: 1px solid lightgray;
-    border-radius: 5%;
-    border-left: 2px solid #22438c;
+    padding: 15px;
+    height: 115px;
+    border: 1px solid #ddd;
+    border-radius: 10%;
+
 }
+
+.border-left {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 4px;
+    background: #22438c;
+    border-radius: 35px;
+}
+
+.border-left {
+    top: 65px;
+    left: 32px;
+    transform: rotate(90deg);
+}
+
 
 .row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 25px;
-    margin-right: 16px;
+    margin-left: -3rem;
 }
 
 .flex {
@@ -205,9 +249,10 @@ nav ul>li {
 .dropdown .items {
     position: absolute;
     top: 0;
-    width: 15%;
+    width: 12%;
     height: 100px;
     margin-top: 180px;
+    margin-left: 1rem;
     border: 1px solid #ddd;
     border-radius: 5%;
 }
@@ -225,10 +270,4 @@ nav ul>li {
 
 .items a:hover {
     background-color: #ddd;
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-        width: 100%;
-    }
 }
