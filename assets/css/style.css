@@ -107,8 +107,8 @@ aside.side-bar {
 }
 
 .side-nav {
-    margin-top: -6rem;
-    margin-left: 8px;
+    margin-top: -10rem;
+    margin-left: 12px;
 }
 
 .nav-settings {
@@ -158,11 +158,14 @@ nav ul>li {
     height: 100px;
     border: 1px solid lightgray;
     border-radius: 5%;
+    border-left: 2px solid #22438c;
 }
 
 .row {
     display: flex;
     justify-content: space-around;
+    margin-top: 25px;
+    margin-right: 16px;
 }
 
 .flex {
@@ -202,9 +205,11 @@ nav ul>li {
 .dropdown .items {
     position: absolute;
     top: 0;
-    width: 20%;
+    width: 15%;
     height: 100px;
     margin-top: 180px;
+    border: 1px solid #ddd;
+    border-radius: 5%;
 }
 
 .dropdown .items a {
@@ -220,4 +225,10 @@ nav ul>li {
 
 .items a:hover {
     background-color: #ddd;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
 }
