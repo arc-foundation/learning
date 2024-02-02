@@ -102,6 +102,7 @@ div.brand-logo {
     justify-content: center;
     align-items: center;
     height: 50px;
+    color: #22438c;
 }
 
 
@@ -134,6 +135,7 @@ nav ul>li {
 
 .size {
     font-size: x-large;
+    color: #696969;
 }
 
 .line {
