@@ -168,6 +168,8 @@ nav ul>li {
     margin-right: 16px;
 }
 
+
+
 .flex {
     background-color: lightgray;
     width: 30px;
@@ -231,4 +233,166 @@ nav ul>li {
     body {
         width: 100%;
     }
+}
+
+.top-tab>ul {
+    display: flex;
+    list-style: none;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+    margin-right: 390px;
+    font-size: small;
+}
+
+.row-second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-second {
+    width: 24%;
+    height: 340px;
+    border: 1px solid #ddd;
+    border-radius: 5%;
+    margin-top: 2rem;
+
+}
+
+.first-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.top-number-first {
+    margin-right: 65px;
+}
+
+.top-text-first {
+    border: 1px solid #0ea7c2;
+    width: 30%;
+    text-align: center;
+    border-radius: 13%;
+    color: aqua;
+    font-size: large;
+
+}
+
+.bottom-line {
+    position: relative;
+    display: inline-block;
+    background: #696969;
+    height: 1px;
+    width: 100%;
+}
+
+.pic {
+    height: 40px;
+    border-radius: 50%;
+    width: 40px;
+}
+
+.second-div {
+    display: flex;
+    margin-top: -29px;
+    margin-left: 50px;
+}
+
+.patient {
+    margin-top: -10px;
+
+}
+
+.first-text {
+    margin-right: 10px;
+}
+
+.third-div {
+    margin-top: 1px;
+    margin-left: 45px;
+}
+
+.fourth-div {
+    margin-top: -40px;
+    margin-left: 220px;
+}
+
+.fifth-div {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.six-div {
+    margin-left: 220px;
+    margin-top: -40px;
+}
+
+
+
+.seven-div {
+    margin-left: 60px;
+    margin-top: -45px;
+
+}
+
+
+.Estimation-time {
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+.button-wrong {
+
+    width: 120px;
+    padding: 4px;
+    border-radius: 5%;
+
+}
+
+.button-right {
+    width: 120px;
+    padding: 4px;
+    border-radius: 5%;
+    color: #ddd;
+    background-color: #22438c;
+}
+
+.RIGHT {
+    margin-left: 155px;
+    margin-top: -29px;
+}
+
+.member {
+    border: 1px solid #0ec26e;
+    width: 30%;
+    text-align: center;
+    border-radius: 13%;
+    color: rgb(37, 204, 31);
+    font-size: large;
+
+}
+
+.Assurance {
+    border: 1px solid #c2830e;
+    width: 30%;
+    text-align: center;
+    border-radius: 13%;
+    color: rgb(204, 149, 31);
+    font-size: large;
+
+}
+
+.row-third {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.coulumn-third {
+    width: 20%;
+    height: 200px;
+    border: 1px solid #000;
+    border-radius: 5%;
+
+
 }
